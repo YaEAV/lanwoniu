@@ -912,8 +912,8 @@ Java标识符Java所有的组成部分都需要名字。类名、变量名以及
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/lanwoniu/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/lanwoniu/categories/ArchLinux安装/" itemprop="url" rel="index">
+                    <span itemprop="name">ArchLinux安装</span>
                   </a>
                 </span>
 
@@ -1069,8 +1069,8 @@ Java标识符Java所有的组成部分都需要名字。类名、变量名以及
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/lanwoniu/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/lanwoniu/categories/ArchLinux安装/" itemprop="url" rel="index">
+                    <span itemprop="name">ArchLinux安装</span>
                   </a>
                 </span>
 
@@ -1104,11 +1104,7 @@ Java标识符Java所有的组成部分都需要名字。类名、变量名以及
 
       
         
-          
-          
-安装X窗口系统
-X 窗口系统（X11 / X）是诸多桌面环境的基础。123pacman -S xorg-server xorg-server-utils    # 安装 Xorg Serverpacman -S xf86-input-synaptics             # 可选，触摸板支持
-          ...
+          <p>xfce是一个轻量级的桌面环境，没有Gnome和kde那样的华丽和开箱即用的方便，但对于性能差的电脑来说可以省下不少资源。<br>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/lanwoniu/2016/07/18/2016-07-18-ArchLinux安装xfce4桌面环境/#more" rel="contents">
@@ -1219,8 +1215,8 @@ X 窗口系统（X11 / X）是诸多桌面环境的基础。123pacman -S xorg-se
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/lanwoniu/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/lanwoniu/categories/ArchLinux安装/" itemprop="url" rel="index">
+                    <span itemprop="name">ArchLinux安装</span>
                   </a>
                 </span>
 
@@ -1254,13 +1250,8 @@ X 窗口系统（X11 / X）是诸多桌面环境的基础。123pacman -S xorg-se
 
       
         
-          
-          
-获取ArchISOArchLinux下载地址建议使用163的源下载
-制作安装盘1dd bs=4M if=&lt; archlinux.iso的路径 &gt; of=/dev/sdX &amp;&amp; sync
-!!! 该命令将清空U盘，并导致U盘不可用。安装完系统后可格式化
-进入安装环境，查看
-          ...
+          <pre><code>Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。
+</code></pre>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/lanwoniu/2016/07/17/2016-07-17-ArchLinux基础系统安装/#more" rel="contents">
@@ -1505,7 +1496,7 @@ Hello World ！
             
             <div class="site-state-item site-state-categories">
               <a href="/lanwoniu/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -1516,7 +1507,7 @@ Hello World ！
             
             <div class="site-state-item site-state-tags">
               <a href="/lanwoniu/tags/index.html">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -1706,6 +1697,28 @@ Hello World ！
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML.js"></script>
+  
+
 
   
 
