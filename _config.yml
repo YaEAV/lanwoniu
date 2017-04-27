@@ -70,4 +70,4 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/YaEAV/lanwoniu.git
-  branch: master
+  #branch: master
