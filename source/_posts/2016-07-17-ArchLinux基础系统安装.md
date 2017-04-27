@@ -2,15 +2,13 @@ title:  "Arch Linux基础系统安装"
 date:   2016-07-17 14:20:15 +0800
 comments: true
 categories:
-- Linux
+- ArchLinux安装
 tags:
 - Linux
 ---
 
+    Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。
 <!-- more -->
-
-
-
 
 ## 获取ArchISO
 
@@ -272,13 +270,14 @@ lspci | grep VGA
 
 * 官方仓库提供的驱动包
 
-厂商|型号|开源|私有
-----|----|----|----|---
-通用|    |xf86-video-vesa|
-Intel|   |xf86-video-intel|
-Nvidia|GeForce 7+|xf86-video-nouveau|nvidia
-Nvidia|GeForce 6/7|xf86-video-nouveau|nvidia-304xx
-AMD/ATI|   | xf86-video-ati
+
+  厂商|型号|开源|私有
+  ----|----|----|----|---
+  通用|    |xf86-video-vesa|
+  Intel|   |xf86-video-intel|
+  Nvidia|GeForce 7+|xf86-video-nouveau|nvidia
+  Nvidia|GeForce 6/7|xf86-video-nouveau|nvidia-304xx
+  AMD/ATI|   | xf86-video-ati
 
 * 安装显卡驱动
 ```

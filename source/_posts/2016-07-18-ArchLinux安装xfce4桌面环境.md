@@ -2,16 +2,14 @@ title:  "Arch Linux安装xfce4"
 date:   2016-07-18 16:42:30 +0800
 comments: true
 categories:
-- Linux
+- ArchLinux安装
 tags:
 - Linux
 - Xfce4
-
 ---
 
-
+xfce是一个轻量级的桌面环境，没有Gnome和kde那样的华丽和开箱即用的方便，但对于性能差的电脑来说可以省下不少资源。
 <!-- more -->
-
 
 ## 安装X窗口系统
 

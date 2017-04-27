@@ -90,20 +90,20 @@
 
 
 
-<meta name="description" content="获取ArchISOArchLinux下载地址建议使用163的源下载 制作安装盘1dd bs=4M if=&amp;lt; archlinux.iso的路径 &amp;gt; of=/dev/sdX &amp;amp;&amp;amp; sync !!! 该命令将清空U盘，并导致U盘不可用。安装完系统后可格式化 进入安装环境，查看是否开启UEFI1efivar -l 若系统以UEFI模式启动会正确列出UEFI变量，后面的安装会根">
+<meta name="description" content="Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。">
 <meta name="keywords" content="Linux">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Arch Linux基础系统安装">
 <meta property="og:url" content="https://yaeav.github.io/lanwoniu/2016/07/17/2016-07-17-ArchLinux基础系统安装/index.html">
 <meta property="og:site_name" content="lanwoniu">
-<meta property="og:description" content="获取ArchISOArchLinux下载地址建议使用163的源下载 制作安装盘1dd bs=4M if=&amp;lt; archlinux.iso的路径 &amp;gt; of=/dev/sdX &amp;amp;&amp;amp; sync !!! 该命令将清空U盘，并导致U盘不可用。安装完系统后可格式化 进入安装环境，查看是否开启UEFI1efivar -l 若系统以UEFI模式启动会正确列出UEFI变量，后面的安装会根">
+<meta property="og:description" content="Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。">
 <meta property="og:image" content="http://ogdmnptnx.bkt.clouddn.com/BIOS.png">
 <meta property="og:image" content="http://ogdmnptnx.bkt.clouddn.com/UEFI.png">
 <meta property="og:image" content="http://ogdmnptnx.bkt.clouddn.com/hostname.png">
-<meta property="og:updated_time" content="2017-04-26T21:20:31.773Z">
+<meta property="og:updated_time" content="2017-04-27T10:16:07.721Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Arch Linux基础系统安装">
-<meta name="twitter:description" content="获取ArchISOArchLinux下载地址建议使用163的源下载 制作安装盘1dd bs=4M if=&amp;lt; archlinux.iso的路径 &amp;gt; of=/dev/sdX &amp;amp;&amp;amp; sync !!! 该命令将清空U盘，并导致U盘不可用。安装完系统后可格式化 进入安装环境，查看是否开启UEFI1efivar -l 若系统以UEFI模式启动会正确列出UEFI变量，后面的安装会根">
+<meta name="twitter:description" content="Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。">
 <meta name="twitter:image" content="http://ogdmnptnx.bkt.clouddn.com/BIOS.png">
 
 
@@ -323,8 +323,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/lanwoniu/categories/Linux/" itemprop="url" rel="index">
-                    <span itemprop="name">Linux</span>
+                  <a href="/lanwoniu/categories/ArchLinux安装/" itemprop="url" rel="index">
+                    <span itemprop="name">ArchLinux安装</span>
                   </a>
                 </span>
 
@@ -357,7 +357,8 @@
       
 
       
-        <a id="more"></a>
+        <pre><code>Archlinux不是在图形界面进行安装的，因此对于新手来说安装很困难。也可以选择基于Arche的发行版manjaro安装简单开箱即用。
+</code></pre><a id="more"></a>
 <h2 id="获取ArchISO"><a href="#获取ArchISO" class="headerlink" title="获取ArchISO"></a>获取ArchISO</h2><p><a href="https://www.archlinux.org/download/" target="_blank" rel="external">ArchLinux下载地址</a><br><strong>建议使用163的源下载</strong></p>
 <h2 id="制作安装盘"><a href="#制作安装盘" class="headerlink" title="制作安装盘"></a>制作安装盘</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">dd bs=4M if=&lt; archlinux.iso的路径 &gt; of=/dev/sdX &amp;&amp; sync</div></pre></td></tr></table></figure>
 <p><strong>!!! 该命令将清空U盘，并导致U盘不可用。安装完系统后可格式化</strong></p>
@@ -505,31 +506,31 @@
 </thead>
 <tbody>
 <tr>
-<td>通用</td>
+<td>  通用</td>
 <td></td>
 <td>xf86-video-vesa</td>
 <td></td>
 </tr>
 <tr>
-<td>Intel</td>
+<td>  Intel</td>
 <td></td>
 <td>xf86-video-intel</td>
 <td></td>
 </tr>
 <tr>
-<td>Nvidia</td>
+<td>  Nvidia</td>
 <td>GeForce 7+</td>
 <td>xf86-video-nouveau</td>
 <td>nvidia</td>
 </tr>
 <tr>
-<td>Nvidia</td>
+<td>  Nvidia</td>
 <td>GeForce 6/7</td>
 <td>xf86-video-nouveau</td>
 <td>nvidia-304xx</td>
 </tr>
 <tr>
-<td>AMD/ATI</td>
+<td>  AMD/ATI</td>
 <td></td>
 <td>xf86-video-ati</td>
 </tr>
@@ -676,7 +677,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/lanwoniu/categories/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -687,7 +688,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/lanwoniu/tags/index.html">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -897,6 +898,28 @@
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML.js"></script>
+  
+
 
   
 

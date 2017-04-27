@@ -2,9 +2,13 @@ title:  "herbstluftwm安装"
 date:   2016-08-20 22:34:44 +0800
 comments: true
 categories:
-- Linux
-tags: Linux , Herbstluftwm
+- ArchLinux安装
+tags:
+ - Linux
+ - Herbstluftwm
 ---
+
+
 
 ## herbstluftwm安装
 
