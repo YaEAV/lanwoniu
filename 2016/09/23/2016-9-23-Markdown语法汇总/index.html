@@ -1,0 +1,1268 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lanwoniu/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lanwoniu/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/lanwoniu/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Blog," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/lanwoniu/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="Markdown语法汇总">
+<meta name="keywords" content="Blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown语法汇总">
+<meta property="og:url" content="https://yaeav.github.io/lanwoniu/2016/09/23/2016-9-23-Markdown语法汇总/index.html">
+<meta property="og:site_name" content="lanwoniu">
+<meta property="og:description" content="Markdown语法汇总">
+<meta property="og:updated_time" content="2016-11-14T15:00:50.294Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Markdown语法汇总">
+<meta name="twitter:description" content="Markdown语法汇总">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/lanwoniu/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://yaeav.github.io/lanwoniu/2016/09/23/2016-9-23-Markdown语法汇总/"/>
+
+
+
+
+
+  <title>Markdown语法汇总 | lanwoniu</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/lanwoniu/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">lanwoniu</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/lanwoniu/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/lanwoniu/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/lanwoniu/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/lanwoniu/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/lanwoniu/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://yaeav.github.io/lanwoniu/lanwoniu/2016/09/23/2016-9-23-Markdown语法汇总/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Lanwoniu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/lanwoniu/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="lanwoniu">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Markdown语法汇总
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-09-23T07:19:00+00:00">
+                2016-09-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/lanwoniu/categories/Blog/" itemprop="url" rel="index">
+                    <span itemprop="name">Blog</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Markdown语法汇总<br><a id="more"></a></p>
+<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">标题1|标题2|标题3</div><div class="line">---:|:-----:|:--</div><div class="line">abc|上面的虚线可用多个减号代替|efg</div><div class="line">123|英文冒号可以调节居左、中、右|456</div></pre></td></tr></table></figure>
+<p>效果：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">标题1</th>
+<th style="text-align:center">标题2</th>
+<th style="text-align:left">标题3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">abc</td>
+<td style="text-align:center">上面的虚线可用多个减号代替</td>
+<td style="text-align:left">efg</td>
+</tr>
+<tr>
+<td style="text-align:right">123</td>
+<td style="text-align:center">英文冒号可以调节居左、中、右</td>
+<td style="text-align:left">456</td>
+</tr>
+</tbody>
+</table>
+<h2 id="数学符号："><a href="#数学符号：" class="headerlink" title="数学符号："></a>数学符号：</h2><table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>说明</th>
+<th>实例</th>
+<th>代码</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>加</td>
+<td>$ x + y $</td>
+<td><code>$ x + y $</code></td>
+</tr>
+<tr>
+<td>-</td>
+<td>减</td>
+<td>$ x - y $</td>
+<td><code>$ x - y $</code></td>
+</tr>
+<tr>
+<td>\times</td>
+<td>乘</td>
+<td>$ x \times y $</td>
+<td><code>$ x \times y $</code></td>
+</tr>
+<tr>
+<td>\cdot</td>
+<td>乘</td>
+<td>$ x \cdot y $</td>
+<td><code>$ x \cdot y $</code></td>
+</tr>
+<tr>
+<td>\ast</td>
+<td>乘</td>
+<td>$ x \ast y $</td>
+<td><code>$ x \ast y $</code></td>
+</tr>
+<tr>
+<td>\div</td>
+<td>除</td>
+<td>$ x \div y $</td>
+<td><code>$ x \div y $</code></td>
+</tr>
+<tr>
+<td>\frac</td>
+<td>分数</td>
+<td>$ \frac{x}{y} $</td>
+<td><code>$ \frac{x}{y} $</code></td>
+</tr>
+<tr>
+<td>^</td>
+<td>上标</td>
+<td>$ x ^ y $</td>
+<td><code>$ x ^ y $</code></td>
+</tr>
+<tr>
+<td>_</td>
+<td>下标</td>
+<td>$ x _ y $</td>
+<td><code>$ x _ y $</code></td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>开二次方</td>
+<td>$ \sqrt x $</td>
+<td><code>$ \sqrt x $</code></td>
+</tr>
+<tr>
+<td>\sqrt</td>
+<td>开方</td>
+<td>$ \sqrt[x]{y^4+3y-1} $</td>
+<td><code>$ \sqrt[x]{y^4+3y-1} $</code></td>
+</tr>
+<tr>
+<td>\lceil和\rceil</td>
+<td>上取整</td>
+<td>$ \lceil\frac12\rceil $</td>
+<td><code>$ \lceil\frac12\rceil $</code></td>
+</tr>
+<tr>
+<td>\lfloor和\rfloor</td>
+<td>下取整</td>
+<td>$ \lfloor\frac12\rfloor $</td>
+<td><code>$ \lfloor\frac12\rfloor $</code></td>
+</tr>
+<tr>
+<td>\pm</td>
+<td>加减</td>
+<td>$ x \pm y $</td>
+<td><code>$ x \pm y $</code></td>
+</tr>
+<tr>
+<td>\mp</td>
+<td>减加</td>
+<td>$ x \mp y $</td>
+<td><code>$ x \mp y $</code></td>
+</tr>
+<tr>
+<td>=</td>
+<td>等于</td>
+<td>$ x = y $</td>
+<td><code>$ x = y $</code></td>
+</tr>
+<tr>
+<td>\leq</td>
+<td>小于等于</td>
+<td>$ x \leq y $</td>
+<td><code>$ x \leq y $</code></td>
+</tr>
+<tr>
+<td>\geq</td>
+<td>大于等于</td>
+<td>$ x \geq y $</td>
+<td><code>$ x \geq y $</code></td>
+</tr>
+<tr>
+<td>\ngeq</td>
+<td>不大于等于</td>
+<td>$ x \ngeq y $</td>
+<td><code>$ x \ngeq y $</code></td>
+</tr>
+<tr>
+<td>\not\geq</td>
+<td>不大于等于</td>
+<td>$ x \not\geq y $</td>
+<td><code>$ x \not\geq y $</code></td>
+</tr>
+<tr>
+<td>\neq</td>
+<td>不等于</td>
+<td>$ x \neq y $</td>
+<td><code>$ x \neq y $</code></td>
+</tr>
+<tr>
+<td>\approx</td>
+<td>约等于</td>
+<td>$ x \approx y $</td>
+<td><code>$ x \approx y $</code></td>
+</tr>
+<tr>
+<td>\equiv</td>
+<td>恒等于</td>
+<td>$ x \equiv y $</td>
+<td><code>$ x \equiv y $</code></td>
+</tr>
+<tr>
+<td>\bigodot</td>
+<td>定义运算符</td>
+<td>$ x \bigodot y=x+y^2 $</td>
+<td><code>$ x \bigodot y=x+y^2 $</code></td>
+</tr>
+<tr>
+<td>\bigotimes</td>
+<td>定义运算符</td>
+<td>$ x \bigotimes y=x+y^2 $</td>
+<td><code>$ x \bigotimes y=x+y^2 $</code></td>
+</tr>
+<tr>
+<td>\in</td>
+<td>属于</td>
+<td>$ x \in y $</td>
+<td><code>$ x \in y $</code></td>
+</tr>
+<tr>
+<td>\notin</td>
+<td>不属于</td>
+<td>$ x \notin y $</td>
+<td><code>$ x \notin y $</code></td>
+</tr>
+<tr>
+<td>\subset</td>
+<td>子集</td>
+<td>$ x \subset y $</td>
+<td><code>$ x \subset y $</code></td>
+</tr>
+<tr>
+<td>\not\subset</td>
+<td>非子集</td>
+<td>$ x \not\subset y $</td>
+<td><code>$ x \not\subset y $</code></td>
+</tr>
+<tr>
+<td>\subseteq</td>
+<td>子集</td>
+<td>$ x \subseteq y $</td>
+<td><code>$ x \subseteq y $</code></td>
+</tr>
+<tr>
+<td>\supset</td>
+<td>超集</td>
+<td>$ x \supset y $</td>
+<td><code>$ x \supset y $</code></td>
+</tr>
+<tr>
+<td>\supseteq</td>
+<td>超集</td>
+<td>$ x \supseteq y $</td>
+<td><code>$ x \supseteq y $</code></td>
+</tr>
+<tr>
+<td>\cup</td>
+<td>并</td>
+<td>$ x \cup y $</td>
+<td><code>$ x \supseteq y $</code></td>
+</tr>
+<tr>
+<td>\cap</td>
+<td>交</td>
+<td>$ x \cap y $</td>
+<td><code>$ x \cap y $</code></td>
+</tr>
+<tr>
+<td>\log</td>
+<td>对数</td>
+<td>$ \log(x) $</td>
+<td><code>$ \log(x) $</code></td>
+</tr>
+<tr>
+<td>\overline</td>
+<td>平均数</td>
+<td>$ \overline{x} $</td>
+<td><code>$ \overline{x} $</code></td>
+</tr>
+<tr>
+<td>\overline</td>
+<td>连线符号</td>
+<td>$ \overline{a+b+c+d} $</td>
+<td><code>$ \overline{a+b+c+d} $</code></td>
+</tr>
+<tr>
+<td>\underline</td>
+<td>下划线</td>
+<td>$ \underline{a+b+c+d} $</td>
+<td><code>$ \underline{a+b+c+d} $</code></td>
+</tr>
+<tr>
+<td>\overbrace</td>
+<td>上大括号</td>
+<td>$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$</td>
+<td><code>$\overbrace{a+\underbrace{b+c}_{1.0}+d}^{2.0}$</code></td>
+</tr>
+<tr>
+<td>\underbrace</td>
+<td>下大括号</td>
+<td>$ \underbrace{a+d}_3 $</td>
+<td><code>$ \underbrace{a+d}_3 $</code></td>
+</tr>
+<tr>
+<td>\partial</td>
+<td>部分</td>
+<td>$ \frac{\partial x}{\partial y} $</td>
+<td><code>$ \frac{\partial x}{\partial y} $</code></td>
+</tr>
+<tr>
+<td>\lim</td>
+<td>极限</td>
+<td>$ \lim_{x\to\infty} $</td>
+<td><code>$ \lim_{x\to\infty} $</code></td>
+</tr>
+<tr>
+<td>\displaystyle</td>
+<td>块公式格式</td>
+<td>$ \displaystyle \lim_{x\to\infty} $</td>
+<td><code>$ \displaystyle \lim_{x\to\infty} $</code></td>
+</tr>
+<tr>
+<td>\sum</td>
+<td>求和</td>
+<td>$ \sum_{i=1}^n $</td>
+<td><code>$ \sum_{i=1}^n $</code></td>
+</tr>
+<tr>
+<td>\infty</td>
+<td>极限</td>
+<td>$ \sum_{i=0}^\infty i^2 $</td>
+<td><code>$ \sum_{i=0}^\infty i^2 $</code></td>
+</tr>
+<tr>
+<td>\int</td>
+<td>积分</td>
+<td>$ \int_0^1 x^2 {\rm d}x $</td>
+<td><code>$ \int_0^1 x^2 {\rm d}x $</code></td>
+</tr>
+<tr>
+<td>\iint</td>
+<td>二重积分</td>
+<td>$ \iint_D f(x,y)d\sigma $</td>
+<td><code>$ \iint_D f(x,y)d\sigma $</code></td>
+</tr>
+<tr>
+<td>\oint</td>
+<td>曲面积分</td>
+<td>$ \oint e^{x+y} ds $</td>
+<td><code>$ \oint e^{x+y} ds $</code></td>
+</tr>
+<tr>
+<td>\ldots</td>
+<td>底端对齐的省略号</td>
+<td>$ 1,2,\ldots,n $</td>
+<td><code>$ 1,2,\ldots,n $</code></td>
+</tr>
+<tr>
+<td>\cdots</td>
+<td>中线对齐的省略号</td>
+<td>$ x_1^2 + x_2^2 + \cdots + x_n^2 $</td>
+<td><code>$ x_1^2 + x_2^2 + \cdots + x_n^2 $</code></td>
+</tr>
+<tr>
+<td>\uparrow</td>
+<td>上箭头</td>
+<td>$ \uparrow $</td>
+<td><code>$ \uparrow $</code></td>
+</tr>
+<tr>
+<td>\Uparrow</td>
+<td>上箭头</td>
+<td>$ \Uparrow $</td>
+<td><code>$ \Uparrow $</code></td>
+</tr>
+<tr>
+<td>\vec</td>
+<td>向量</td>
+<td>$ \vec{a} $</td>
+<td><code>$ \vec{a} $</code></td>
+</tr>
+<tr>
+<td>\hat</td>
+<td>拟合值</td>
+<td>$\hat Y = \hat \beta_0 + \hat \beta_1X $</td>
+<td><code>$\hat Y = \hat \beta_0 + \hat \beta_1X $</code></td>
+</tr>
+<tr>
+<td>\bot</td>
+<td>垂直</td>
+<td>$ A \bot B $</td>
+<td><code>$ A \bot B $</code></td>
+</tr>
+<tr>
+<td>\circ</td>
+<td>度</td>
+<td>$ 45^\circ $</td>
+<td><code>$ 45^\circ $</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><blockquote>
+<p>在<code>$…$</code>中插入MathJax语法(只能在行内输入，不能换行）：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$S = \pi r^2$</div></pre></td></tr></table></figure>
+<p>$S = \pi r^2$</p>
+<blockquote>
+<p>在<code>$$…$$</code>中插入MathJax语法（可以换行）：</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$$</div><div class="line">\Gamma(z) = \int_0^\infty t^&#123;z-1&#125; e^&#123;-t&#125; dt  </div><div class="line">$$</div></pre></td></tr></table></figure>
+<p>$$<br>\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} dt<br>$$</p>
+<h2 id="附加内容"><a href="#附加内容" class="headerlink" title="附加内容"></a>附加内容</h2><ol>
+<li><code>$\sideset{^1_2}{^3_4}\bigotimes$</code> –&gt; $\sideset{^1_2}{^3_4}\bigotimes$</li>
+<li>加空格：可以加 \空格，\quad 与 \qquad 的空格更大。<ul>
+<li><code>$a\ bcd\quad efghij\qquad k$</code> –&gt; $a\ bcd\quad efghij\qquad k$</li>
+</ul>
+</li>
+<li><code>换行：\\</code><ul>
+<li><code>$1234\\567$</code> –&gt; $ 1234\\567 $</li>
+</ul>
+</li>
+<li>括号自适应大小：<ul>
+<li><code>$(\frac12)$</code> –&gt; $(\frac12)$</li>
+<li><code>$ \left(\frac12\right)$</code> –&gt; $ \left(\frac12\right)$</li>
+</ul>
+</li>
+<li>方程组：<ul>
+<li><code>$$\left\{\begin{array}{c}a_1x+b_1y+c_1z=d_1\\a_2x+b_2y+c_2z=d_2\\a_3x+b_3y+c_3z=d_3\end{array}\right.$$</code><br>$$\left\{\begin{array}{c}a_1x+b_1y+c_1z=d_1\\a_2x+b_2y+c_2z=d_2\\a_3x+b_3y+c_3z=d_3\end{array}\right.$$</li>
+</ul>
+</li>
+</ol>
+<h1 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h1><table>
+<thead>
+<tr>
+<th>语法</th>
+<th>字体</th>
+<th>例子</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>\rm</td>
+<td>罗马体</td>
+<td><code>{$\rm 你好，World，123$}</code></td>
+<td>{$\rm 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\bf</td>
+<td>黑体</td>
+<td><code>{$\bf 你好，World，123$}</code></td>
+<td>{$\bf 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\Bbb</td>
+<td>黑板粗体字</td>
+<td><code>{$\Bbb 你好，World，123$}</code></td>
+<td>{$\Bbb 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\mit</td>
+<td>数学斜体</td>
+<td><code>{$\mit 你好，World，123$}</code></td>
+<td>{$\mit 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\scr</td>
+<td>小体大写字母</td>
+<td><code>{$\scr 你好，World，123$}</code></td>
+<td>{$\mit 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\it</td>
+<td>意大利体</td>
+<td><code>{$\it 你好，World，123$}</code></td>
+<td>{$\mit 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\cal</td>
+<td>花体</td>
+<td><code>{$\cal 你好，World，123$}</code></td>
+<td>{$\cal 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\sf</td>
+<td>等线体</td>
+<td><code>{$\sf 你好，World，123$}</code></td>
+<td>{$\sf 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\tt</td>
+<td>打字机字体</td>
+<td><code>{$\tt 你好，World，123$}</code></td>
+<td>{$\tt 你好，World，123$}</td>
+</tr>
+<tr>
+<td>\frak</td>
+<td>Fraktur字母（一种德国字体）</td>
+<td><code>{$\frak 你好，World，123$}</code></td>
+<td>{$\frak 你好，World，123$}</td>
+</tr>
+</tbody>
+</table>
+<h1 id="颜色"><a href="#颜色" class="headerlink" title="颜色"></a>颜色</h1><table>
+<thead>
+<tr>
+<th>代码</th>
+<th>效果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>$\color{black}{Hello World!}$</code></td>
+<td>$\color{black}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{gray}{Hello World!}$</code></td>
+<td>$\color{gray}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{silver}{Hello World!}$</code></td>
+<td>$\color{silver}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{white}{Hello World!}$</code></td>
+<td>$\color{white}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{maroon}{Hello World!}$</code></td>
+<td>$\color{maroon}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{red}{Hello World!}$</code></td>
+<td>$\color{red}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{yellow}{Hello World!}$</code></td>
+<td>$\color{yellow}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{lime}{Hello World!}$</code></td>
+<td>$\color{lime}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{olive}{Hello World!}$</code></td>
+<td>$\color{olive}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{green}{Hello World!}$</code></td>
+<td>$\color{green}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{teal}{Hello World!}$</code></td>
+<td>$\color{teal}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{aqua}{Hello World!}$</code></td>
+<td>$\color{aqua}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{blue}{Hello World!}$</code></td>
+<td>$\color{blue}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{navy}{Hello World!}$</code></td>
+<td>$\color{navy}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{purple}{Hello World!}$</code></td>
+<td>$\color{purple}{Hello World!}$</td>
+</tr>
+<tr>
+<td><code>$\color{fuchsia}{Hello World!}$</code></td>
+<td>$\color{fuchsia}{Hello World!}$</td>
+</tr>
+</tbody>
+</table>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/lanwoniu/tags/Blog/" rel="tag"># Blog</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/lanwoniu/2016/09/26/2016-09-27-Centos防火墙/" rel="next" title="Centos7防火墙设置">
+                <i class="fa fa-chevron-left"></i> Centos7防火墙设置
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/lanwoniu/2016/08/24/2016-08-24-zsh安装配置/" rel="prev" title="zsh安装">
+                zsh安装 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/lanwoniu/images/avatar.gif"
+               alt="Lanwoniu" />
+          <p class="site-author-name" itemprop="name">Lanwoniu</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/lanwoniu/archives">
+                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/lanwoniu/categories/index.html">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/lanwoniu/tags/index.html">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#表格"><span class="nav-number">1.</span> <span class="nav-text">表格</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#数学符号："><span class="nav-number">1.1.</span> <span class="nav-text">数学符号：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用方法"><span class="nav-number">1.2.</span> <span class="nav-text">使用方法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#附加内容"><span class="nav-number">1.3.</span> <span class="nav-text">附加内容</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#字体"><span class="nav-number">2.</span> <span class="nav-text">字体</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#颜色"><span class="nav-number">3.</span> <span class="nav-text">颜色</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2016 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Lanwoniu</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lanwoniu/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/lanwoniu/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/lanwoniu/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/lanwoniu/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/lanwoniu/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/lanwoniu/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
